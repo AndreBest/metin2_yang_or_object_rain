@@ -21,7 +21,7 @@ And for the height and speed of the fall in client UserInterface/PythonItem.Cpp
 I did hardcode the vnum for this example and ofc for multiple items I could hardcode an item range but I feel like the best approach would be to create an item_type for it and then do not have hardcoded values.
 For objects it might be better but I havent tested, in my head instead of just dupping every item perhaps just make a vnum that points at it.
 Theres with blessing marbles for example if you /i 39004 you will get an item with the vnum 70024 in your inventory, so perhaps we can make the 39004 blessing marble fall out of sky and the 70024 can drop nicely.
-Aain I havent tested it but I am just imagining, I might be wrong. 
+I havent tested it but I am just imagining, I might be wrong. 
 
 Needless to say you can adjust it for objects but unsure of the best approach.
 
