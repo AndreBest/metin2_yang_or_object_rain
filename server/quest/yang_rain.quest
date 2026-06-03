@@ -1,0 +1,18 @@
+quest yang_rain begin
+	state start begin
+		when 31073.use begin -- any item without .use , for me I chose 31073 
+			pc.setqf("yang_rain_drops", 300) -- amount of drops
+			loop_timer("yang_rain_drop", 0.1) -- how often 0.1 ms
+		end
+
+		when yang_rain_drop.timer begin
+			local left = pc.getqf("yang_rain_drops")
+			if left <= 0 then
+				cleartimer("yang_rain_drop")
+				return
+			end
+			pc.setqf("yang_rain_drops", left - 1)
+			game.drop_item(2, 1, 1000) -- (2, 1, 1000) == (vnum we created for our fake yang, the quantity, units around player)
+		end
+	end
+end

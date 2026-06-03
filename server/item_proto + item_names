@@ -1,0 +1,9 @@
+just copy the yang line from item_proto, and change the number from 1 to 2 like so :
+
+2	Yang	ITEM_ELK	0	1	NONE	NONE	NONE	NONE	0	0	0	0	0	LIMIT_NONE	0	LIMIT_NONE	0	APPLY_NONE	0	APPLY_NONE	0	APPLY_NONE	0	0	0	0	0	0	0	0	0	0
+
+make sure to also add to item_names :
+
+2	Yang
+
+For objects check README
