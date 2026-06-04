@@ -25,4 +25,10 @@ I havent tested it but I am just imagining, I might be wrong.
 
 Needless to say you can adjust it for objects but unsure of the best approach.
 
+## Contact
+
+discord: shadowofthelove
+
+## Licence (no one cares)
+
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
