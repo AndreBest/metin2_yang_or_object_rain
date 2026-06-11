@@ -15,6 +15,7 @@ Client side the vnum 2 item has modified height that it falls from and speed fro
 
 I left comments where what you can adjust, either the speed of the objects spawned, for how long and amount in the lua quest
 And for the height and speed of the fall in client UserInterface/PythonItem.Cpp
+If you have auto pickup- or pickup filter- you should add restrictions for it/disable for the custom item or item type
 
 ## Additional Info
 
